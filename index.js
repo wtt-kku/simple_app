@@ -6,7 +6,7 @@ const port = 8001;
 
 app.use(cors());
 app.get("/", (req, res) => {
-  res.send(`This app run on port ${port}`);
+  res.send(`BEAM LOVE JARN <3`);
 });
 
 app.listen(port, () => {
